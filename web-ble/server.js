@@ -6,7 +6,7 @@ var certificate = fs.readFileSync('./sslcert/server.crt', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 var express = require('express');
 var app = express();
-app.use(express.static('smartlock'))
+app.use(express.static('dist'))
 
 // your express configuration here
 

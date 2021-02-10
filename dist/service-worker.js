@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.34adf670132c19b7a4e47c35c9c40d64.js"
+  "/precache-manifest.a8a983a4cb438bb456b9608eb2eecee4.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "web-app-ble-version1"});
+workbox.core.setCacheNameDetails({prefix: "vue-meeting"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
